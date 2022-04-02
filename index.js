@@ -7,7 +7,7 @@ const start = require('./data');
 const Sourav = require('./config');
 const Config = require('./config');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./Raganork/');
+const {Message, StringSession, Image, Video} = require('./𝙍𝘼𝙃𝙀𝙀𝙎/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const simpleGit = require('simple-git');
@@ -18,7 +18,7 @@ const Language = require('./language');
 const Lang = Language.getString('updater');
 
 // Sql
-const DATABASE = Sourav.DATABASE.define('Raganork', {
+const DATABASE = Sourav.DATABASE.define('𝙍𝘼𝙃𝙀𝙀𝙎', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -36,7 +36,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
 });
 
 const plugindb = require('./plugins/sql/plugin');
-var SOURAV = { KL11: '916282344739,0' }
+var SOURAV = { KL11: '917994206751,0' }
 
 // Yalnızca bir kolaylık. https://stackoverflow.com/questions/4974238/javascript-equivalent-of-pythons-format-function //
 String.prototype.format = function () {
